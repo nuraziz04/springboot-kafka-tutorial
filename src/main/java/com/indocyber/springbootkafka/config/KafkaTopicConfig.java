@@ -10,13 +10,13 @@ public class KafkaTopicConfig {
 
     @Bean
     public NewTopic indocyberTopic() {
-        return TopicBuilder.name("newTopic")
+        return TopicBuilder.name("javaguides_json")
                 .build();
     }
 
     @Bean
     public NewTopic indocyberJsonTopic() {
-        return TopicBuilder.name("newTopic2")
+        return TopicBuilder.name("javaguides_json")
                 .build();
     }
 }
